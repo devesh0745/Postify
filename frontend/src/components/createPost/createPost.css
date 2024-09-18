@@ -1,0 +1,50 @@
+.create-post-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+}
+.post-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.post-input {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    margin-bottom: 10px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+.post-input:focus {
+    border-color: #1a213e;
+}
+.post-submit-btn {
+    align-self: flex-end;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1a213e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.post-submit-btn:hover {
+    background-color: #373c57;
+}
+.landing-page-section {
+    margin-top: 20px;
+}

@@ -1,0 +1,53 @@
+/* Container for the sign-up form */
+.signup-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1a213e;
+}
+
+/* Input fields styling */
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* Submit button styling */
+.signup-form button {
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1a213e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #373c57;
+}
+
+/* Adding a bit of extra space between the form and page footer */
+.signup-container {
+    margin-bottom: 50px;
+}
